@@ -1,0 +1,1 @@
+This is landign page for resturant website
