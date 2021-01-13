@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Yusei+Magic&display=swap');
+
+.background-home{
+    background: url("../images/style 3.png") no-repeat top center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.background-over{
+    background:url("../images/Group 43.png") no-repeat ;
+    background-position: 10% 50%;
+}
+.logo{
+    font-size: 36px;
+    color: #452268;
+    opacity: 0.87;
+    font-weight: 300;
+}
+.nav-items{
+    margin-left: 126px;
+}
+.nav-item{
+    margin: auto;
+    padding: 10px;
+    color: #ABADAE;
+    color: 16px;
+    font-weight: 500;
+    font-family: Roboto,sans-serif;
+}
+.active{
+    color: #0A4065;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+    font-family: inherit !important;
+}
+.home-slide{
+    font-size: 50px;
+    color: #255A7E;
+    font-weight: 300;
+}
+.home-slide-content{
+    color: #0C3653;
+    opacity: 0.71;
+}
+.custom-container{
+    margin-left: 6.5em;
+    margin-top: 13em;
+}
+.btn-custom{
+    background-color: #F98169;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white !important;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px rgba(249, 129, 105, 0.15);
+}
+.custom-size-story{
+    font-size: 17px;
+    opacity: 0.51;
+    font-family: Roboto, sans-serif;
+}
+.custom-circle{
+    border: none;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius:50%;
+    widows: 50px;
+    height: 50px;
+    background-color: #F98169;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 4px;
+
+}
+.custom-margin-order{
+    margin-bottom: 5.3em;
+}
+p{
+    color: #0C3653;
+}
+.custom-word-photo{
+    font-size: 35px;
+    margin-top: 4.5em;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+.custom-word-content{
+    color: #8B8E8F;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+}
+.button-extra{
+    background-color: #F98169;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white !important;
+    font-weight: 600;
+    width: 40%;
+    box-shadow: 2px 2px 2px 2px rgba(249, 129, 105, 0.15);
+}
+.background-content{
+    background:url("../images/Line.png") no-repeat ;
+}
+.background-content-extra{
+    background: url("../images/lcz9nxhoslo-brooke-lark.png");
+    background-size: 100%;
+}
+.descripiton-content{
+    font-size: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-family: 'Yusei Magic', sans-serif;
+    margin-left: 5em;
+
+}
+.paragraph-custom{
+    color: #AEB2B4;
+    margin-left: 10em;
+}
+.button-extra-content{
+    background-color: #F98169;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white !important;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px rgba(249, 129, 105, 0.15);
+}
+.backgorund-test{
+    background: url('../images/zv0lvbep.png') no-repeat;
+    background-size: 100%;
+    padding-bottom: 2em;
+    width: 100%;
+}
+.backgorund-test::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0A4065;
+    opacity: 0.49;
+    border-radius: 15px;
+
+}
+.word-inside{
+    margin-top: 2.5em;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    opacity: 1;
+    font-family:sans-serif;
+    z-index: 50;
+}
+.word-content{
+    margin-top: 0.8em;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    opacity: 1;
+    font-family:sans-serif;
+    z-index: 500;
+}
+.custom-circle-in{
+    padding-top: 2em;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: center;
+    border-radius:50%;
+    padding-left: 20px;
+    padding-right: 0px;
+    border: 3px white solid;
+    z-index: 500;
+}
+.card{
+    border-radius: 15px!important;
+}
+.price{
+    color: #F98169;
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.popular-image{
+
+    background: url('../images/h4wl2hhg.png') no-repeat;
+    background-size: 100%;
+    padding-bottom: 2em;
+    width: 100%;
+}
+.popular-image::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0A4065;
+    opacity: 0.49;
+    border-radius: 15px;
+}
+.custom-photo{
+    width:320px;
+    height:325px;
+    position: relative;
+    background: url("../images/h4wl2hhg.png") no-repeat;
+    background-size: 100%;
+}
+.custom-photo::before{
+    position: absolute;
+    background-color: #0A4065;
+    opacity: 0.46;
+    width: 100%;
+    height: 99%;
+    border-radius: 5px;
+    top:0;
+    left: 0;
+    content: '';
+}
