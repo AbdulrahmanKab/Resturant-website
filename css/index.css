@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Yusei+Magic&display=swap');
-
+body,html{
+    overflow-x: hidden;
+}
 .background-home{
     background: url("../images/style 3.png") no-repeat top center ;
     -webkit-background-size: cover;
@@ -17,9 +19,12 @@
     color: #452268;
     opacity: 0.87;
     font-weight: 300;
+    margin-top: 0.45em;
+    margin-left: 3em;
 }
 .nav-items{
     margin-left: 126px;
+    margin-top: 1.5em;
 }
 .nav-item{
     margin: auto;
@@ -60,11 +65,16 @@ a{
     font-weight: 600;
     box-shadow: 2px 2px 2px 2px rgba(249, 129, 105, 0.15);
 }
+.img-custom{
+    width: 90%;
+}
 .custom-size-story{
     font-size: 17px;
     opacity: 0.51;
     font-family: Roboto, sans-serif;
+    margin-left: 2em;
 }
+
 .custom-circle{
     border: none;
     color: white;
@@ -81,7 +91,8 @@ a{
     padding-left: 20px;
     padding-top: 15px;
     padding-right: 4px;
-
+    margin-left: 2em;
+    margin-top: 0.5em;
 }
 .custom-margin-order{
     margin-bottom: 5.3em;
@@ -179,6 +190,9 @@ p{
     font-family:sans-serif;
     z-index: 500;
 }
+.margin-custom{
+    margin-left: 10em;
+}
 .custom-circle-in{
     padding-top: 2em;
     color: white;
@@ -239,4 +253,70 @@ p{
     top:0;
     left: 0;
     content: '';
+}
+@media (max-width:550px) {
+    .logo{
+        margin-top: 0.7em;
+        margin-left: 0.1em;
+    }
+    .nav-items{
+        margin-left: -8em;
+        margin-top: 5em;
+    }
+    .nav-item{
+        font-size: 0.8em;
+    }
+    .custom-container{
+        margin-top: 0em;
+        margin-left: 1em;
+    }
+    .home-slide{
+        font-size: 1.8em;
+    text-align: left;
+    }
+    .custom-size-story{
+        margin-left: 0.5em!important;
+    }
+    .custom-circle{
+        margin-top: 1em;
+        width: 30px;
+        height: 30px;
+        padding: 3px;
+        margin-left: 0.5em;
+    }
+    .circle-inside{
+        font-size: 0.8em;
+    }
+    .btn-custom{
+        padding: 15px;
+        font-size: 1em;
+    }
+    .img-custom{
+        margin-top: 3.5em;
+        width: 100%!important;
+    }
+    .background-content-extra{
+        margin-left: 0px;
+    }
+    .custom-word-photo{
+        margin-top: 0px;
+    }
+    .button-extra{
+        padding-top: 10px;
+        padding-right: 45%;
+        padding-left: 10px;
+
+        font-size: 0.8em;
+        margin-top: 0px;
+    }
+    .descripiton-content{
+        margin-top: 1.5em;
+        margin-left: 0px;
+    }
+    .paragraph-custom{
+        margin-left: 0px;
+    }
+    .margin-custom{
+        margin-left: 0px;
+    }
 }
