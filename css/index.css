@@ -22,10 +22,47 @@ body,html{
     margin-top: 0.45em;
     margin-left: 3em;
 }
+
+.logo:hover{
+    color: white;
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color: #0A4065;
+}
 .nav-items{
     margin-left: 126px;
     margin-top: 1.5em;
 }
+.home-slide:hover{
+    color: white;
+}
+.home-slide-content:hover{
+    color: black!important;
+}
+.button-extra:hover{
+    background-color: white!important;
+    color: #F98169!important;
+}
+.button-extra-content:hover{
+    background-color: white!important;
+    color: #F98169!important;
+
+}
+.custom-circle:hover{
+    background-color: white;
+    color: #F98169;
+}
+.custom-circle:hover .circle-inside{
+    font-weight: 600;
+    color: #F98169;
+}
+
+.btn-custom:hover{
+    color: #F98169!important;
+    background-color: white!important;
+}
+
 .nav-item{
     margin: auto;
     padding: 10px;
@@ -74,7 +111,9 @@ a{
     font-family: Roboto, sans-serif;
     margin-left: 2em;
 }
-
+.text-dark:hover{
+    color: white!important;
+}
 .custom-circle{
     border: none;
     color: white;
@@ -254,6 +293,13 @@ p{
     left: 0;
     content: '';
 }
+.test-box{
+    margin-top: 10em;margin-left: 9em;margin-right: 5em;
+}
+.custom-margin{
+    margin-right: 8em;
+    margin-left: 8em;
+}
 @media (max-width:550px) {
     .logo{
         margin-top: 0.7em;
@@ -286,6 +332,7 @@ p{
     }
     .circle-inside{
         font-size: 0.8em;
+        color: white;
     }
     .btn-custom{
         padding: 15px;
@@ -319,4 +366,93 @@ p{
     .margin-custom{
         margin-left: 0px;
     }
+    .first-image{
+        margin-left: 0px !important;
+        width: 50%;
+
+    }
+    .second-image{
+        margin-top: -0em!important;
+        margin-right: -4em;
+        width: 55%;
+        height: 40%;
+    }
+    .mt-8{
+        margin-top: 7em!important;
+    }
+    .third-image{
+        width: 60%;
+        margin-left: -1em;
+        margin-top: 0.3em!important;
+    }
+    .fourth-image{
+        width: 43%;
+        height: 45%;
+        margin-top: -2.5em!important;
+    }
+    .word-inside{
+        font-size: 1em;
+        padding-top: 0px!important;
+        margin-top: 2em!important;
+    }
+    .backgorund-test{
+        height: 100% !important;
+        background-size: 100% 100%;
+    }
+    .backgorund-test::before{
+        height: 100%;
+    }
+
+    .test-box{
+        margin-top: 0.5em;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    .word-inside{
+        font-size: 1em;
+        margin-top: 0.8em;
+    }
+    .word-custom{
+        font-size: 0.8em;
+    }
+    .custom-margin{
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+    .btn-extra-custom{
+        width: 60% !important;
+    }
+    .item-coursal{
+        width: 110%!important;
+        height: 100%!important;
+    }
+    .custom-photo{
+        background-size: 29% 30%;
+    }
+    .custom-photo::before{
+        width: 29%;
+        height: 30%;
+    }
+    .popular{
+        font-size: 1.2em !important;
+    }
+    .owl-theme{
+        margin-top: 1.5em!important;
+    }
+    .latest{
+        font-size: 1.2em!important;
+        margin-top: 0em!important;
+        padding-top: 0em!important;
+    }
+    .descripiton-content{
+        font-size: 1.5em;
+    }
+    .custom-word-photo{
+        font-size: 1.5em;
+    }
+    .button-extra-contentex{
+        margin-top: 2.8em!important;
+    }
+
 }
