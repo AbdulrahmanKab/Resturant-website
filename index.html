@@ -7,9 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css"  >
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/hover-min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <title>Home page</title>
 </head>
 <body>
@@ -17,37 +19,43 @@
 <div class="container-fluid">
     <div class="row background-home">
         <div class="col-sm-12 col-12 row background-over">
-            <div class=" row">
-                <div class="container">
-                    <div class="container d-flex flex-row ">
-                <span class="logo">
+            <div class="col-12 row col-sm-12">
+                <div class="col-sm-12 col-12">
+                    <div class="d-flex flex-row  ">
+                <span class="logo hvr-pulse">
             Victorya
         </span>
-                        <nav class=" d-flex flex-row nav-items">
-                            <div class="nav-item active"><a href="#">
+
+
+                        <nav class=" d-flex flex-row nav-items nav-mobile"  >
+                            <div class="fas fa-times close-window" style=""></div>
+                            <div class="mobile-margin"></div>
+                            <div class="nav-item hvr-underline-from-left active"><a href="#">
                                 Menu
-                            </a> </div>
-                            <div class="nav-item">
+                            </a>
+                            </div>
+                            <div class="nav-item hvr-underline-from-left">
                                 <a href="#">
                                     Package
                                 </a>
                             </div>
-                            <div class="nav-item ">
+                            <div class="nav-item hvr-underline-from-left ">
                                 <a href="#">About us</a>
-
                             </div>
-                            <div class="nav-item">
+                            <div class="nav-item hvr-underline-from-left">
                                 <a href="#">Contact us</a>
                             </div>
                         </nav>
+                        <span class="fas fa-align-right ml-auto align-margin "></span>
                     </div>
 
                 </div>
 
 
 
+
             </div>
-            <div class="container-fluid custom-container" >
+            <div class="container-fluid custom-container" data-aos=zoom-in-up" data-aos-duration="2500" >
                 <div class="row d-flex flex-column">
                     <div class="col-sm-12 col-12 row">
                         <p class="col-sm-6 col-12 home-slide">
@@ -64,11 +72,11 @@
 
                 </div>
                 <div class=" row mt-5 ml-0 d-flex flex-row custom-margin-order">
-                    <a class="btn btn-lg btn-custom">
+                    <a class="btn btn-lg btn-custom hvr-float-shadow  ">
                         Order Now
                     </a>
                     <a href="" class="text-dark mt-3  custom-size-story">Watch Our Story</a>
-                    <div class=" custom-circle">
+                    <div class=" custom-circle hvr-bounce-to-right">
                         <span class="circle-inside ">Play</span>
                     </div>
                 </div>
@@ -82,15 +90,19 @@
     <div class="container-fluid background-content">
     <div class="container-fluid background-content-extra">
         <div class="row">
-            <div class="col-sm-6 col-12">
+            <div class="col-sm-6 col-12" data-aos="fade-left"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500"
+                 data-aos-offset="300"
+            >
                 <img src="./images/jaifv4nk.png"  class=" img-custom" alt="">
             </div>
-            <div class="col-sm-5 col-12 row d-flex flex-column" >
+            <div class="col-sm-5 col-12 row d-flex flex-column mobile-edition" >
                 <p class="font-weight-bold custom-word-photo">The best comfort food will always be greens, cornbread, and fried chicken.</p>
                 <p class="custom-word-content mt-4">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
                 </p>
-                <a class=" btn mt-5  button-extra" href="#">
+                <a class=" btn mt-5  button-extra hvr-float-shadow" href="#">
                     Know More About Us
                 </a>
             </div>
@@ -98,7 +110,9 @@
         </div>
 
         <div class="row mb-5">
-            <div class="col-sm-6 col-12">
+            <div class="col-sm-6 col-12" data-aos="fade-left"
+                 data-aos-easing="linear"
+                 data-aos-duration="1000">
                 <p class="descripiton-content ">
                     The best comfort food will always be greens, cornbread, and fried chicken.
                 </p>
@@ -106,17 +120,19 @@
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
                 </p>
                 <div class="margin-custom" style="">
-                    <a class=" btn mt-3 button-extra-content button-extra-contentex" href="#">
+                    <a class=" btn mt-3 button-extra-content button-extra-contentex hvr-float-shadow" href="#">
                         Know More About Us
                     </a>
                 </div>
             </div>
-            <div class="col-sm-6 col-12 mt-8">
-                <img src="./images/a8yt8ici.png" width="233.51" class="mt-5 ml-5 first-image" alt="image">
-                <img src="./images/qv3g3gmi.png" class="second-image" style="margin-top: -5em" height="268.21" width="307.59" alt="image">
-                <img src="./images/2mou6w3x.png" class="mt-2 third-image" width="290" alt="image">
+            <div class="col-sm-6 col-12 mt-8" data-aos="fade-right"
+                 data-aos-easing="linear"
+                 data-aos-duration="1000">
+                <img src="./images/a8yt8ici.png" width="233.51" class="mt-5 ml-5 first-image hvr-shrink" alt="image">
+                <img src="./images/qv3g3gmi.png" class="second-image hvr-shrink" style="margin-top: -5em" height="268.21" width="307.59" alt="image">
+                <img src="./images/2mou6w3x.png" class="mt-2 third-image hvr-shrink" width="290" alt="image">
 
-                <img src="./images/o9kwrr26.png" class="fourth-image" style="margin-top: -4.5em" width="233.51" height="194.12" alt="image">
+                <img src="./images/o9kwrr26.png" class="fourth-image hvr-pulse" style="margin-top: -4.5em" width="233.51" height="194.12" alt="image">
             </div>
         </div>
 
@@ -126,7 +142,8 @@
     </div>
 
 
-            <div class="row d-flex justify-content-center test-box" style="">
+            <div class="row d-flex justify-content-center test-box" data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom" data-aos-duration="2000" style="">
 
                 <div class="backgorund-test col-sm-12 row  position-relative" style="">
                  <p class="col-sm-12 word-inside">
@@ -155,7 +172,8 @@
 
 
 
-    <div class="container-fluid" style="margin-top: 7em">
+    <div class="container-fluid" style="margin-top: 7em"  data-aos="fade-up"
+         data-aos-anchor-placement="top-bottom" data-aos-duration="1000" >
         <div class="row">
             <div class="col-sm-12 col-12 text-center" style="color: #0C3653;font-size: 32px;font-weight: 600">
                 Explore Our Foods
@@ -167,7 +185,9 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid ">
+    <div class="container-fluid "data-aos="fade-left"
+         data-aos-offset="100"
+         data-aos-duration="2000">
         <div class="row custom-margin" style="">
             <div class="col-sm-4  mt-3">
                 <div class="card" style="">
@@ -250,22 +270,26 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <a class=" btn mt-5 btn-extra-custom  button-extra-content" style="padding: 15px;font-size:1.2em;width: 20%;font-weight: 500" href="#">
+                <a class=" btn mt-5 btn-extra-custom  button-extra-content hvr-float-shadow" style="padding: 15px;font-size:1.2em;width: 20%;font-weight: 500" href="#">
                     Explore all food
                 </a>
             </div>
         </div>
-        <div class="row" style="margin-top: 7em">
+        <div class="row" style="margin-top: 7em" data-aos="fade-left"
+             data-aos-offset="100"
+             data-aos-duration="500">
             <div class="col-sm-12 popular text-center" style="color: #0C3653;font-size: 34px;font-weight: 600">
                 Our Popular Recipes
             </div>
         </div>
-        <div class="owl-carousel owl-theme mt-5"  >
+        <div class="owl-carousel owl-theme mt-5" data-aos="zoom-out"
+             data-aos-offset="100"
+             data-aos-duration="500"  >
             <div class="item item-coursal">
                 <img src="./images/natural-chef-carolyn-nicholas-560118-unsplash.png" alt="">
             </div>
             <div class="item item-coursal">
-                <div class="custom-photo"></div>
+                <img src="./images/h4wl2hhg.png" alt="">
 
             </div>
             <div class="item item-coursal">
@@ -279,7 +303,9 @@
         </div>
 
     </div>
-    <div class="container-fluid" style="background: url('./images/Group 100.png') no-repeat;background-size: 10%;background-position: 15% 5%">
+    <div class="container-fluid" data-aos="fade-left"
+         data-aos-offset="300"
+         data-aos-duration="500" style="background: url('./images/Group 100.png') no-repeat;background-size: 10%;background-position: 15% 5%">
 
         <div class="row d-flex justify-content-center mt-5" style="background: url('./images/Group 100.png') no-repeat;background-size: 10%;background-position: 85% 100%">
             <div class="col-sm-6" style="border: 0px #000000 solid;padding-bottom: 5em;
@@ -299,14 +325,18 @@
             </div>
         </div>
     </div>
-<footer class="container-fluid mt-5  "style="padding-top: 5em;background: url('./images/eaters-collective-132773-unsplash.png') no-repeat;background-position: 	950% 40%; ">
+<footer class="container-fluid mt-5"
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-duration="500"
+        style=" ">
 
-        <div class="row" style="margin-left: 8em;margin-right:8em;border-top: #f3e2e2 1px solid;border-bottom:#f3e2e2 1px solid; ">
-         <span class="logo">
+        <div class="row row-footer" style=" ">
+         <span class="logo hvr-pulse logo-footer logo-mobile">
             Victorya
         </span>
-            <nav class="d-flex flex-row nav-items mt-3">
-                <div class="nav-item active"><a href="#">
+            <nav class="d-flex flex-row  mt-3 nav-items-footer">
+                <div class="nav-item "><a href="#">
                     Menu
                 </a> </div>
                 <div class="nav-item">
@@ -323,23 +353,27 @@
                 </div>
             </nav>
         </div>
-        <div class="row mt-5" style="font-size: 1.8em;margin-left: 4.5em;margin-right:8em;color:#0A4065">
-            <i class="fab fa-facebook mr-2"></i>
-            <i class="fab fa-instagram mr-2"></i>
-            <i class="fab fa-twitter mr-2"></i>
-            <i class="fab fa-whatsapp mr-2"></i>
+        <div class="row mt-5 social-row" style="">
+            <i class="fab fa-facebook mr-2 item-social"></i>
+            <i class="fab fa-instagram mr-2 item-social"></i>
+            <i class="fab fa-twitter mr-2 item-social"></i>
+            <i class="fab fa-whatsapp mr-2 item-social"></i>
         </div>
-        <div class="row pb-3" style="color: #ABADAE;font-size: 16px;margin-top: 5em;margin-left: 8em;margin-right:8em;">
+        <div class="row pb-3 copy-row" style="">
             Copyright© 2021. All rights reserved
         </div>
 
 
 
 </footer>
+<a href="#" class="back-to-top" style="text-align: center;display: none;background-color: #F98169;border-radius: 50%;width: 40px;height: 40px">
+    <i class="fas fa-arrow-up" style="color: white!important;;padding-top: 30%;"></i>
+</a>
 <script src="./js/jquery.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="./js/bootstrap.min.js" ></script>
 <script src="./js/owl.carousel.min.js"></script>
+<script src="./js/aos.js"></script>
 <script>
     var owl = $('.owl-carousel');
     owl.owlCarousel({
@@ -348,14 +382,64 @@
         margin:10,
         autoplay:true,
         autoplayTimeout:3000,
-        autoplayHoverPause:true
+        autoplayHoverPause:true,
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+                stagePadding: 0,
+                loop: true,
+                responsiveClass: true,
+                dots: false,
+                nav: false,
+                autoHeight: true,
+                items: 2
+            },
+            // breakpoint from 768 up
+            768 : {
+                items: 4
+            }
+        }
     });
     $('.play').on('click',function(){
         owl.trigger('play.owl.autoplay',[1000])
     })
     $('.stop').on('click',function(){
         owl.trigger('stop.owl.autoplay')
+    });
+    $(document).ready(function(){
+        $('.back-to-top').fadeOut();
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+
+            // Show button after 100px
+            var showAfter = 200;
+            if ( $(this).scrollTop() > showAfter ) {
+                $('.back-to-top').fadeIn();
+            } else {
+                $('.back-to-top').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.back-to-top').click(function(){
+            $('html, body').animate({scrollTop : 0},1000);
+            return false;
+        });
+
+
+
+    });
+    $('.close-window').click(function (){
+        $('.nav-items').toggleClass("nav-mobile")
+        $('.align-margin').fadeIn()
     })
+    $('.align-margin').click(function (){
+        $('.nav-items').toggleClass("nav-mobile")
+        $('.close-window').fadeOut
+    })
+</script>
+<script>
+    AOS.init();
 </script>
 </body>
 </html>
